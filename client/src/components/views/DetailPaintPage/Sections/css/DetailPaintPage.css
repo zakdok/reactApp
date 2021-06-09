@@ -1,0 +1,123 @@
+/* eychoi */
+.paintpage-wrap.onepage {
+    align-items:center;
+}
+.paintpage-wrap {
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+/* //eychoi */
+
+/* side bar */
+.paintpage-side-wrap {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:20%;
+    height: calc(100vh - 69px);
+    padding: 20px 0 0;
+    overflow-y: auto;
+    background-color:#fff;
+    border:1px solid #000;
+    font-size:1rem;
+}
+
+/* side bar - right*/
+.paintpage-side-con
+
+{
+    text-align:center;
+}
+
+
+/* main */
+.paintpage-main-wrap {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:60%;
+    /* eychoi */
+    /* height:100vh; */
+    background-color:#fff;
+    font-size:1rem;
+}
+
+/* eychoi */
+.paintpage-main-con.container {
+    display: block;
+    height: auto;
+}
+/* //eychoi */
+
+.paintpage-main-con .canvas-wrap {
+    text-align:center;
+}
+
+.paintpage-main-con .canvas-wrap canvas {
+    width:100%;
+    max-width:800px;
+    background-color:#fff;
+    border:1px solid #000;
+}
+
+.canvas-con {
+    justify-content:center;
+}
+
+.canvas-con .canvas-item {
+    text-align:center;
+}
+
+.canvas-add-wrap {
+    margin: 1rem auto;
+    /* eychoi */
+    /* width:500px; */
+}
+
+.canvas-add-wrap .canvas-con .canvas-item {
+    margin-bottom:2rem;
+}
+
+/* MainTab.js:142 <Content> */
+.paintpage-main-con > [class*="content"] {
+    padding:0 50px;
+}
+/* MainTab.js:143 <Breadcrumb> */
+.paintpage-main-con [class*="breadcrumb"] {
+    margin:60px 0;
+}
+
+.paintpage-side-wrap .canvas-list-area{
+    width: 90%;
+    margin: 0 auto;
+}
+.paintpage-side-wrap .canvas-list-area .list-wrap{
+    margin: -20px 0 0;
+    padding: 0;
+}
+.paintpage-side-wrap .canvas-list-area .list-con{
+    padding: 20px 0 0;
+    list-style: none;
+}
+.paintpage-side-wrap .canvas-list-area .list-inner{}
+.paintpage-side-wrap .canvas-list-area .canvas-wrap{
+    position: relative;
+    height: 0;
+    padding-bottom: 56.26%;
+    border: 1px solid #d9d9d9;
+}
+.paintpage-side-wrap .canvas-list-area canvas{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.paintpage-side-wrap .canvas-list-area .empty-text-wrap{
+    text-align: center;
+    font-size: 16px;
+    padding: 30px 0;
+}
